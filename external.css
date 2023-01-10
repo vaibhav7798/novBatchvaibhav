@@ -54,9 +54,32 @@ div.container:hover
 height: 120px;   
 }
 
-.container2
+.text_shadwo
 {
-    font-size: 40px;
+    font-size: 40px !important;
      text-shadow: -2px 5px 4px red; /*-2px is horizontal 5px is vertitcal 4px is blur last is color */
 }
 
+.container2
+{
+    background-color: aqua;
+    font-size: 60px;
+}
+
+.imgOpacity
+{
+    opacity:1;
+}
+
+div.imgOpacity img:hover
+{
+    opacity: 0.8;
+}
+
+.parent
+{
+    background-image: url("vaibhav photo.jpg");
+   background-repeat: no-repeat;
+   height: 500px;
+   width: 1000px;
+}
